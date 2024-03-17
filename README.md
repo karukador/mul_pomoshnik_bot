@@ -1,9 +1,9 @@
-# Бот помощник
-бот помощник для telegram на python с нейросетью
+# Бот мультипомощник
+бот мультипомощник для telegram на python с нейросетью
 # Как использовать
 1) Клонируйте этот репозиторий:
 ```
-git clone https://github.com/karukador/pomoshnik_bot.git
+git clone https://github.com/karukador/mul_pomoshnik_bot.git
 ```
 2) Установите requirements
 3) Получите токен через [BotFather](https://telegram.me/BotFather) в Telegram 
