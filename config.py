@@ -1,2 +1,2 @@
 TOKEN = "ВАШ ТОКЕН"
-ADMIN = "ВАШ ID"
+ADMIN = "ВАШ  TELEGRAM_ID"
