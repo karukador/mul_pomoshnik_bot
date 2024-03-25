@@ -21,7 +21,7 @@ logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
     datefmt="%Y-%m-%d %H",
-    filename="log_file.txt",
+    filename="log_file.log",
     filemode="w",
     force=True
 )
@@ -34,7 +34,7 @@ def send_logs(message):
     if user_id == admin_id:
         try:
 
-            with open("log_file.txt", "rb") as f:
+            with open("log_file.log", "rb") as f:
                 bot.send_document(message.chat.id, f)
 
         except telebot.apihelper.ApiTelegramException:
